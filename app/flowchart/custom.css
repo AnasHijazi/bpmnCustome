@@ -1,0 +1,290 @@
+.flowchart-example-container {
+  margin: 10px;
+  padding: 10px;
+  min-height: 500px;
+  min-width: 500px;
+  border: 1px solid #BBB;
+  margin-bottom: 10px;
+}
+
+.flowchart-tooltip {
+  display: none;
+  background: #FAFAFA;
+  border: 2px solid #999;
+  margin-left: 28px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1000;
+  width:200px;
+  height:100px;
+}
+
+.flowchart-operator-connector-set {
+  border: 1px solid black;
+}
+  
+.flowchart-operator-connector-arrow {
+  top: 4px;
+}
+
+.flowchart-operator-connector-small-arrow {
+  top: 9px;
+}
+
+#create_operator {
+  margin-bottom: 10px;
+}
+
+.flowchart-example-event {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #3366FF;
+}
+
+#last_event_example_6 {
+  display: block;
+  overflow-y: auto;
+  height: 100px;
+}
+
+#flowchart_data {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 140px;
+}
+
+h4 {
+  margin-top: 40px;
+}
+
+#operator_properties, #link_properties {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 4px solid;
+  padding: 10px;
+}
+
+#example_9 {
+  width: 2000px;
+  height: 2000px;
+  background: white;
+}
+
+#chart_container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: repeating-linear-gradient(
+      45deg,
+      #eee,
+      #eee 10px,
+      #e5e5e5 10px,
+      #e5e5e5 20px
+    );
+    border: 1px solid black;
+}
+
+.draggable_operator {
+  display: inline-block;
+  padding: 2px 5px 2px 5px;
+  border: 1px solid #ccc;
+  cursor: grab;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.draggable_operators {
+  margin-top: 10px;
+}
+
+.draggable_operators_label {
+  margin-bottom: 5px;
+}
+
+.draggable_operators_divs {
+  margin-bottom: 20px;
+}
+
+.delete_selected_button {
+  margin-bottom: 20px;
+}
+
+.flowchart-operator-connector:hover {
+  border: 1px solid #999;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.flowchart-operator-connector > div:first-child {
+  padding: 0px 15px;
+ }
+
+.flowchart-operator-sub-parent-label {
+  margin-left: 25px;
+}
+
+.flowchart-operator-connector-label-0 {
+  margin-left: 0em;
+}
+
+.flowchart-operator-connector-label-1 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 1em;
+}
+
+.flowchart-operator-connector-label-2 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: circle;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 2em;
+}
+
+.flowchart-operator-connector-label-3 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: square;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 3em;
+}
+
+.flowchart-operator-connector-label-4 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 4em;
+}
+
+.flowchart-operator-connector-label-5 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 5em;
+}
+
+.flowchart-operator-connector-label-6 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 6em;
+}
+
+.flowchart-operator-connector-label-7 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 7em;
+}
+
+.flowchart-operator-connector-label-8 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 8em;
+}
+
+.flowchart-operator-connector-label-9 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 9em;
+}
+
+.flowchart-operator-connector-label-10 {
+  display: list-item;           /* This has to be "list-item"                                               */
+  list-style-type: disc;        /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  margin-left: 10em;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  /*bottom: 30px; /* 30px from the bottom */
+  top: 30px;
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+ However, delay the fade out process for 2.5 seconds */
+ -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+ animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+.container {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+}
+
+.container .data {
+  flex-basis: 100%;
+}
+
+.data {
+  min-height: 200px;
+  /* max-width: 500px; */
+  border: 1px solid #BBB;
+  margin-bottom: 10px;
+}
+
+.half {
+  margin: 0;
+  width: 50%;
+}
+
+.pd-mg {
+  padding: 10px;
+  margin: 10px;
+}
+
+.modal-lg {
+  width: 100%;
+}

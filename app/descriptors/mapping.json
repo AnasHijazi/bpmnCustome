@@ -1,0 +1,24 @@
+{
+    "name": "Mapping",
+    "prefix": "mapping",
+    "uri": "http://mapping",
+    "xml": {
+      "tagAlias": "lowerCase"
+    },
+    "associations": [],
+    "types": [
+      {
+        "name": "MappingScriptTask",
+        "extends": [
+          "bpmn:ScriptTask"
+        ],
+        "properties": [
+          {
+            "name": "mapping",
+            "isAttr": true,
+            "type": "String"
+          },
+        ]
+      },
+    ]
+  }

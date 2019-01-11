@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Mapping Task",
+      "id": "mapping_task",
+      "entriesVisible": true,
+      "appliesTo": [
+        "bpmn:ScriptTask"
+      ],
+      "properties": [
+        {
+            "label": "Script Format",
+            "type": "Hidden",
+            "value": "JavaScript",
+            "editable": false,
+            "binding": {
+              "type": "property",
+              "name": "scriptFormat"
+            }
+        },
+        {
+          "label": "Result Variable",
+          "type": "Hidden",
+          "value": "mappingObj",
+          "editable": false,
+          "binding": {
+            "type": "property",
+            "name": "camunda:resultVariable"
+          }
+        },
+        {
+            "label": "Script Resource",
+            "type": "Hidden",
+            "value": "load('http://camundaproxy:5000/camundaProxy/getScript?scriptName=mappingScript')",
+            "editable": false,
+            "binding": {
+              "type": "property",
+              "name": "camunda:resource"
+            }
+        }
+      ]
+    }
+  ]
